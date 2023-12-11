@@ -1,0 +1,113 @@
+/* @font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: "SUITE-Regular";
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+/*   font-family: "SUITE-Regular"; */
+}
+canvas {
+  display: block;
+}
+
+p {
+  /* wrap */
+  width: 800px;
+  font-family: "SUITE-Regular";
+  text-align: center;
+  font-size: 20px;
+}
+
+.responseP {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #FFEF99;
+  color: black;
+}
+
+.label {
+  text-align: start;
+  letter-spacing: -0.13px;
+  color: white;
+  line-height: 140%;
+}
+
+.inputText {
+  border-radius: 10px;
+  padding: 8px;
+  position: relative;
+/*   background-color: var(--color-greyscale-90); */
+  background-color: #E5E5E1;
+  width: 600px;
+  font-size: 20px;
+  font-family: "SUITE-Regular";
+}
+
+.inputText::placeholder {
+  color: #777777;
+}
+
+.submitButton {
+  border-radius: 10px;
+  padding: 4px;
+  position: relative;
+/*   background-color: #ffffff; */
+  background-color: transparent; 
+/*   width: 8;
+  height: 8; */
+  cursor: pointer;
+}
+
+.micButton {
+  border-radius: 10px;
+  padding: 4px;
+  position: relative;
+/*   background-color: #ffffff; */
+  background-color: transparent; 
+/*   width: 8;
+  height: 8; */
+  cursor: pointer;
+}
+
+.egButton_wrap {
+  border-color:skyblue;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+}
+
+.egButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  position: relative;
+  border-radius: 18px;
+  border: 2px solid;
+  border-color: #47B26B;
+  background-color: transparent;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "SUITE-Regular";
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.egButton:hover {
+  background-color: #ffffff;
+/*   background: rgba(255, 255, 255, 0.8); */
+/*   color: #47B26B; */
+  color: #000000;
+}
